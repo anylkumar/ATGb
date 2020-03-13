@@ -1,0 +1,97 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+nav img{
+	width: 120px;
+}
+
+.banner{
+	background-image:url("./cse.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding:10%;
+	padding-top: 20%;
+	color: #fff;
+}
+
+
+#basic-addon1
+{
+	border: none;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+
+}
+
+form .form-control{
+	background-color: #e9ecef;
+	border: none;
+	border-radius:25px;
+
+}
+
+form .form-control select{
+	outline: none;
+}
+
+nav #register a{
+	color: black;
+}
+
+#nav2
+{
+	position: relative;
+}
+
+#nav2 #btn1{
+	background-color: #e9ecef;
+	position: static;
+}
+
+.jumbotron-fluid{
+	position: relative;
+}
+
+.jumbotron-fluid button{
+	background-color: transparent;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	border: 1px solid #fff;
+}
+
+.posts #changeH{
+	position: relative;
+}
+.posts #changeH img{
+	width: 8%;
+	border-radius: 50%;
+}
+
+
+
+#Uname{
+	position: absolute;
+	top: 10px;
+	left: 10%;
+	font-weight: bolder;
+}
+
+@media (max-width: 767.98px) {
+	nav a{
+		display: none;
+	}
+}
+
+@media (max-width: 575.98px) {
+	#nav2 #nav2_data{
+		display: none;
+	}
+
+	.posts #sideBar{
+		display: none;
+	}
+}

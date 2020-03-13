@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>ATG</title>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="./style.css">
+	
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#nav1">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="container">
+
+     <div class="navbar collapse navbar-collapse" id="nav1">
+
+  <a class="" href="#"><img class="img-fluid" src="./atg_main_logo.png"></a>
+
+  <form class="inline-form">
+
+    <div class="input-group">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1"><i class="fa fa-search"></i></span>
+  </div>
+  <input type="text" class="form-control" placeholder="Search.." aria-label="Username" aria-describedby="basic-addon1">
+    </div>
+
+  </form>
+
+   <div id="register" class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Create Account .<span class="text-primary font-weight-bold"> Its Free! </span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item font-weight-bold p-0 text-center text-primary" href="#">Log In</a>
+          <a class="dropdown-item font-weight-bold p-0 text-center text-primary" href="#">Sign Up</a>
+        </div>
+      </div>
+    </div>
+      </div>
+</nav>
+
+<div class="jumbotron-fluid banner">
+
+   <button type="button" class="btn btn-primary btn-sm d-block d-sm-none"><i class="fa fa-users" aria-hidden="true"></i> Join Group</button>
+
+  <h1 class="display-4 font-weight-bolder">Computer Engineering</h1>
+  <p class="lead">14,338 Computer Engineers follow this</p>
+</div>
+
+<!-- navbar 2 starts from here -->
+
+<nav id="nav2" class="navbar navbar-expand-md navbar-light bg-light my-2">
+ <div class="container">
+
+   <!-- This ul comes only on small screen -->
+
+  <ul class="navbar-nav mr-auto font-weight-bold .d-none d-sm-block d-md-none">
+      <li class="nav-item active dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdownNav" href="#">All Posts(32) <span class="caret"></span></a>
+        <div class="dropdown-menu" aria-labelledby="dropdownNav">
+          <a class="dropdown-item" href="#">Article</a>
+          <div class="dropdowm-divider"></div>
+          <a class="dropdown-item" href="#">Events</a>
+          <a class="dropdown-item" href="#">Education</a>
+          <a class="dropdown-item" href="#">Job</a>
+        </div>
+      </li>
+    </ul>
+
+ 
+
+ <div class="d-sm-none d-md-block" id="nav2_data">
+
+
+    <ul class="navbar-nav mr-auto font-weight-bold">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">All Posts(32) <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Article</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Event</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Job</a>
+      </li>
+    </ul>
+
+  </div>
+<div class="row">
+ 
+    <button id="btn1" type="button" class="btn btn-sm text-dark mx-2 font-weight-bolder">Write a Post <i class="fa fa-pencil-square" aria-hidden="true"></i></button>
+
+    <button type="button" class="btn btn-primary btn-sm  d-none d-sm-block"><i class="fa fa-users" aria-hidden="true"></i> Join Group</button>
+    </div>
+  </div>
+
+</nav>
+
+<hr>
+
+<!-- This is Posts Section -->
+
+<section class="posts">
+<div class="container">
+  <div class="row">
+    <div class="col-md-9">
+
+      <!-- Post 1 -->
+
+  <div class="card mb-3">
+  <img class="card-img-top img-fluid" src="./card-img1.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text text-bold"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Article</p>
+    <h5 class="card-title text-truncate">What if famous brands had regular fonts? Meet RegulaBrands</h5>
+    <p class="card-text text-truncate">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <div id="changeH" class="d-flex">
+    <img class="img-fluid" src="./profile.jpg">
+    <p id="Uname">Sarthak Kamra</p>
+    <p class="ml-auto text-muted mt-1">1.4k Views <i class="fa fa-share-alt p-2 ml-2" aria-hidden="true"></i></p>
+    
+    </div>
+  </div>
+  </div>
+
+       <!-- Post 2 -->
+
+  <div class="card mb-3">
+  <img class="card-img-top img-fluid" src="./card-img2.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text"><i class="fa fa-sign-language" aria-hidden="true"></i> Education</p>
+    <h5 class="card-title text-truncate">Tax Benefits for Investment under National Pension Scheme Launched by Government</h5>
+    <p class="card-text text-truncate">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <div id="changeH" class="d-flex">
+    <img class="img-fluid" src="./profile-2.jpg">
+    <p id="Uname">Sarah West</p>
+    <p class="ml-auto text-muted mt-1">1.4k Views <i class="fa fa-share-alt p-2 ml-2" aria-hidden="true"></i></p>
+    
+    </div>
+  </div>
+  </div>
+
+      <!-- Post 3 -->
+
+  <div class="card mb-3">
+  <img class="card-img-top img-fluid" src="./card-img3.jpg" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text"><i class="fa fa-calendar" aria-hidden="true"></i> Meetup</p>
+    <h5 class="card-title text-truncate">Finance & Investment Elite Social Mixer @LUJIAZUI </h5>
+    <div class="d-flex">
+    <p class="card-text mr-4">
+      <i class="fa fa-calendar-check-o" aria-hidden="true"></i> Fri,12 Oct, 2020
+    </p>
+    <p class="card-text ml-4"><i class="fa fa-map-marker" aria-hidden="true"></i> Ahmedabad, India</p>
+    </div>
+
+    <a href="#" class="btn btn-light border border-secondary w-100 mb-3"><span class="text-danger">View Website</span></a>
+
+    <div id="changeH" class="d-flex">
+    <img class="img-fluid" src="./profile-2.jpg">
+    <p id="Uname">Ronal Jones</p>
+    <p class="ml-auto text-muted mt-1">1.4k Views <i class="fa fa-share-alt p-2 ml-2" aria-hidden="true"></i></p>
+    
+    </div>
+  </div>
+  </div>
+
+  <div class="card mb-3">
+  <div class="card-body">
+    <p class="card-text"><i class="fa fa-briefcase" aria-hidden="true"></i> Software Developer</p>
+    <h5 class="card-title text-truncate">Finance & Investment Elite Social Mixer @LUJIAZUI </h5>
+    <div class="d-flex">
+    <p class="card-text mr-4">
+      <i class="fa fa-calendar-check-o" aria-hidden="true"></i> Innovaccer Analysts Private Ltd.
+    </p>
+    <p class="card-text ml-4"><i class="fa fa-map-marker" aria-hidden="true"></i> Noida, India</p>
+    </div>
+
+    <a href="#" class="btn btn-light border border-secondary w-100 mb-3"><span class="text-info">Apply on Timesjobs</span></a>
+
+    <div id="changeH" class="d-flex">
+    <img class="img-fluid" src="./profile.jpg">
+    <p id="Uname">Joseph Gray</p>
+    <p class="ml-auto text-muted mt-1">1.4k Views <i class="fa fa-share-alt p-2 ml-2" aria-hidden="true"></i></p>
+    
+    </div>
+  </div>
+  </div>
+
+    </div>
+
+    <div id="sideBar" class="col-md-3 d-sm-none d-md-block">
+      <ul class="list-group mt-4 list-unstyled">
+        <li class=""><i class="fa fa-map-marker" aria-hidden="true"></i>
+      <input class="border-top-0 border-left-0 border-right-0" type="" placeholder="Noida, India">
+      <i class="fa fa-pencil" aria-hidden="true"></i></li>
+
+        <li class="mt-2">
+          <p class="text-muted"><i class="fa fa-exclamation-circle mr-2" aria-hidden="true"></i>Your location will help us serve better and extend a personalised experience.</p>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+
+</body>
+</html>
